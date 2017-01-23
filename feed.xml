@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Eric Jones</title>
+		<description></description>
+		<link>http://localhost:4000</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Chile</title>
+				
+				
+					<description>&lt;p&gt;Seven days on the full circuit in Torres del Paine National Park and a few other southern hemisphere adventures.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/chile-01-pass-pano.jpg&quot; alt=&quot;Looking West to Grey Glacier and the Patagonia Ice Sheet from John Gardner Pass&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;29-november-2016&quot;&gt;29 November, 2016&lt;/h3&gt;
+&lt;p&gt;I’m waiting for my first flight in the Atlanta airport’s new international terminal. It’s a lofty white atmosphere with blue accents and much more natural light than other areas of ATL which can be extremely dull. Of course, after a few minutes I notice that here too the lack of flavor is unfortunate. (Even all the official signage is light grey on dark grey, no color at all.) The crowds here all appear very American except for the flight crew from Qatar making their way to a nearby gate. A pleasant surprise is the lack of PA announcements, but it only reinforces the corporate atmosphere.&lt;/p&gt;
+
+&lt;p&gt;The flight to Toronto is only half full. Just after takeoff, we pass through some strong turbulence. I can make out thunderheads lit from below by the suburban sprawl. Soon the ride settles out, and thankfully the baby one row behind me calms down as well.&lt;/p&gt;
+
+&lt;p&gt;It is clear as we arrive in Toronto. The CN Tower is lit modestly; the rest of the city looks crisp in the cool night air. A mix of orange and white streetlights stretch out to the horizon. The terminal is dark, which is appropriate as it’s nearing 11pm. We clear customs and continue to our connecting gate. Only after boarding the 777 do I start hearing the spanish all around me. I’ll do my best to sleep on this 10 hour journey to the Southern Hemisphere.&lt;/p&gt;
+
+&lt;p&gt;To be continued…&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 15 Dec 2016 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/travel/2016/12/15/chile.html</link>
+				<guid isPermaLink="true">http://localhost:4000/travel/2016/12/15/chile.html</guid>
+			</item>
+		
+			<item>
+				<title>Lost Time Orienteering</title>
+				
+				
+					<description>&lt;p&gt;I volunteer with the Cascade Orienteering Club results team, managing software and hardware that verifies course completion and calculates results. As soon as I started in this position, I noticed opportunities to simplify both pre- and post-meet tasks. Working off and on over about a year, I developed a web tool that simplifies the job. Fifteen minute tasks can now be completed in seconds, without worry of error.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/LostTimeHeader2.png&quot; alt=&quot;LostTimeOrienteering header&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Many of the tasks are data transformation, some are more complex calculations:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Load registration information from a couple sources into the meet management software.&lt;/li&gt;
+  &lt;li&gt;Assign point values to finishers&lt;/li&gt;
+  &lt;li&gt;Format results for posting to the CascadeOC website&lt;/li&gt;
+  &lt;li&gt;Calculate team results&lt;/li&gt;
+  &lt;li&gt;Calculate series standings&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;While the tool is developed for CascadeOC, the architecture is such that any club may be able to leverage the tool for similar tasks with a little bit of additional configuration work.&lt;/p&gt;
+
+&lt;h3 id=&quot;technical-notes&quot;&gt;Technical Notes&lt;/h3&gt;
+&lt;p&gt;Python is my go-to language, and I’ve now built a number of sites using the &lt;a href=&quot;http://flask.pocoo.org/&quot; target=&quot;_blank&quot;&gt;Flask&lt;/a&gt; web development micro-framework. I’m hooked up to a SQLite database, which handles the (tiny) load with no issues.&lt;/p&gt;
+
+&lt;p&gt;Major shout-out to &lt;a href=&quot;https://msdn.microsoft.com/en-us/commandline/wsl/about&quot; target=&quot;_blank&quot;&gt;Windows Subsystem for Linux (aka Bash/Ubuntu on Windows)&lt;/a&gt;. I’m able to develop on my PC without messing around with VMs or a linux partition, and I get an accurate representation of how the code will run on my web host’s linux box.&lt;/p&gt;
+
+&lt;p&gt;You can view and make your own fork of the code on &lt;a href=&quot;https://github.com/ercjns/LostTime&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;; pull requests welcome.&lt;/p&gt;
+</description>
+				
+				<pubDate>Sun, 06 Nov 2016 00:00:00 -0700</pubDate>
+				<link>http://localhost:4000/projects/2016/11/06/lost-time-orienteering.html</link>
+				<guid isPermaLink="true">http://localhost:4000/projects/2016/11/06/lost-time-orienteering.html</guid>
+			</item>
+		
+			<item>
+				<title>Pizza Delivery</title>
+				
+				
+					<description>&lt;p&gt;My uncle runs a couple of pizza delivery stores in the Greenville, SC area. His web host and site template provider functionally disappeared in June 2016. I was able to recover most of his site content from the &lt;a href=&quot;https://web.archive.org&quot; target=&quot;_blank&quot;&gt;wayback machine&lt;/a&gt;, but with the editing software gone in the wind, he was unable to make updates. This was as good a catalyst as any to have his site re-built from the ground up.&lt;/p&gt;
+
+&lt;p&gt;While I’ve built basic websites previously, I had never taken a project where I needed to hand over full control to a less technical person at the end of development. I brushed up on WordPress and spent some time learning about his business before building out his new site. Ultimately we ended up with something I’m proud of and something that my uncle can update himself except in extreme cases, so I’m quite happy.&lt;/p&gt;
+
+&lt;p&gt;Oh, and the pizza is good too! If you’re in the area, grab some grub from &lt;a href=&quot;http://www.wedgysonline.com&quot; target=&quot;_blank&quot;&gt;Wedgy’s Pizza Delivery&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/Wedgys.png&quot; alt=&quot;Wedgy's Pizza Delivery&quot; /&gt;&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Thu, 15 Sep 2016 00:00:00 -0700</pubDate>
+				<link>http://localhost:4000/projects/2016/09/15/pizza-delivery.html</link>
+				<guid isPermaLink="true">http://localhost:4000/projects/2016/09/15/pizza-delivery.html</guid>
+			</item>
+		
+			<item>
+				<title>Orienteering Live Results</title>
+				
+				
+					<description>&lt;p&gt;Orienteering is map and compass navigation racing. Here in Puget Sound, the &lt;a href=&quot;http://www.cascadeoc.org&quot;&gt;Cascade Orienteering Club&lt;/a&gt; hosts meets all year, some attended by more than four hundred competitors. Orienteering is an anti-climactic sport: competitors start individually in 2 minute intervals, race their course (through the woods and out of sight), and return to the finish. Even though this is a race for the fastest time, there is never a head-to-head race to the finish. Also, because every course is different, it can be hard to judge an individual’s performance.&lt;/p&gt;
+
+&lt;p&gt;Live results provide coaches and competitors with faster feedback about the race. With this information on-site, individuals and teams can de-brief while still present in the environment, which likely leads to easier recognition of possible corrections and faster improvements.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/WiFi-phone-home.png&quot; alt=&quot;WiFi Results Home Page&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;system-design&quot;&gt;System Design&lt;/h3&gt;
+
+&lt;p&gt;Because many event sites have limited or no cell phone coverage, the entire system is designed around a web server broadcasting pages over a local WiFi network. As competitors finish the course, event software records information from their &lt;a href=&quot;https://www.google.com/search?q=orienteering+electronic+punching&quot; target=&quot;_blank&quot;&gt;e-punch&lt;/a&gt; (rfid-like tracking device) and compiles results. The event software is able to export preliminary results at set time intervals, which is the input data for the public live results system. The exported file is routed to a Raspberry Pi which processes it and builds a database each time a new file is received. Some local DNS tricks on a WiFi router and a web server running on the Pi allow anyone on site to connect to a public WiFi network and view the current results. Running this system on the Pi rather than directly on the event laptop helps with modularity and security.&lt;/p&gt;
+
+&lt;h3 id=&quot;technical-details&quot;&gt;Technical Details&lt;/h3&gt;
+
+&lt;p&gt;Check out the code (and the readme) on &lt;a href=&quot;https://github.com/ercjns/O-coc-wifiscoring&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The current server is built on the &lt;a href=&quot;http://flask.pocoo.org/&quot; target=&quot;_blank&quot;&gt;Flask&lt;/a&gt; micro-framework for Python and uses a SQLite database. It all runs on a &lt;a href=&quot;https://www.raspberrypi.org/products/&quot; target=&quot;_blank&quot;&gt;Raspberry Pi 2&lt;/a&gt;. The event software can export the preliminary results file (an .xml file) directly to a folder on the Pi thanks to a &lt;a href=&quot;https://www.samba.org/samba/what_is_samba.html&quot; target=&quot;_blank&quot;&gt;samba&lt;/a&gt; share. On the Pi, a simple script monitors this directory for changes. When a new file is detected, the script sends the file to the server (another process on the Pi) via HTTP POST request. The server reads the xml and loads the data to the database, recalculating points for individuals and teams. When a user connects to the local WiFi network and requests a page, the Pi dynamically builds and serves the appropriate html.&lt;/p&gt;
+
+&lt;h3 id=&quot;variations&quot;&gt;Variations&lt;/h3&gt;
+
+&lt;p&gt;At three events in February and March 2016, this system was successfully deployed (in areas with cell coverage) such that results were available both via an a internet-facing web server and via the local WiFi. This was trivial: a duplicate web-facing server was running on Heroku, and the script on the Pi was altered to POST each new results xml file to both the localhost and the internet server.&lt;/p&gt;
+
+&lt;p&gt;At three events in Winter 2015-2016, this system captured and displayed information from the check or start control in real time, with the help of some additional hardware and integration of the socketIO library.&lt;/p&gt;
+
+&lt;p&gt;Previous event software didn’t have periodic export functionality, so a solution was developed to intercept data as it was sent to the results ticket printer. This worked but was undesirable as the system existed within the critical path for the event. This solution was abandoned when the club independently decided to switch to different event software.&lt;/p&gt;
+
+&lt;p&gt;Previous iterations of this project used &lt;a href=&quot;http://expressjs.com/&quot; target=&quot;_blank&quot;&gt;Express&lt;/a&gt; on node.js as the backbone. The project switched to python due to more stable support for python on the Pi and other potential hardware targets which were being investigated.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sat, 10 Oct 2015 00:00:00 -0700</pubDate>
+				<link>http://localhost:4000/projects/2015/10/10/orienteering-live-results.html</link>
+				<guid isPermaLink="true">http://localhost:4000/projects/2015/10/10/orienteering-live-results.html</guid>
+			</item>
+		
+	</channel>
+</rss>

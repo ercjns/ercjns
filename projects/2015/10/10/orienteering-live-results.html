@@ -1,0 +1,343 @@
+
+<!-- Post Layout Start -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  
+<!-- HEAD Start -->
+
+<head>
+  
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Eric Jones">
+  <meta name="keywords" content="personal, blog, portfolio, resume, projects">
+  <link rel="canonical" href="/projects/2015/10/10/orienteering-live-results.html">
+  <title>Eric Jones | Orienteering Live Results</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link href="/css/grayscale.css" rel="stylesheet">
+  
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/rrssb.css" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+    <link rel="shortcut icon" type="image/x-icon" href="/img/EJ32.png">
+  
+
+  
+
+  
+
+
+
+  
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#000000">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#000000">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+  
+
+
+  <!-- Syntax highlight in post pages -->
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/monokai_sublime.min.css">
+
+
+
+
+</head>
+
+<!-- HEAD End -->
+
+
+  <body>
+
+    
+<!-- Navigation Start -->
+
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      
+        <a class="navbar-brand" href="/">
+      
+          <div>
+            
+            Eric Jones
+          </div>
+        </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        
+          <!-- Blog, Post, Tag and Error pages -->
+          
+            <li>
+            
+                <a href="/#about"> About </a>
+            
+            </li>
+          
+            <li>
+            
+              
+                <a href="/posts/"> Posts </a>
+              
+            
+            </li>
+          
+            <li>
+            
+                <a href="/#contact"> Contact </a>
+            
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Navigation End -->
+
+
+    <section id="post" class="container content-section text-center">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+          
+<!-- Swipe Instructions Start -->
+
+<div id="swipe-instruction">
+  <div>
+    <p><br><br><br></p>
+    <i id="hand-swipe" class="fa fa-hand-o-up"></i>
+    <p><strong>
+    
+      Did you know that you can navigate the posts by swiping left and right?
+    
+    </strong></p>
+    <button type="button" class="btn btn-default ok-btn close-swipe-instruction">
+      
+        Awesome!
+      
+    </button>
+  </div>
+</div>
+
+<!-- Swipe Instructions End -->
+
+
+          <h1><strong>Orienteering Live Results</strong></h1>
+          <h4>
+            <small>
+            <strong>10 Oct 2015</strong>
+            
+              . category:
+              <a class="category" href="/categories/projects.html">
+                projects
+              </a>
+              <!-- <a href="/projects/2015/10/10/orienteering-live-results.html#disqus_thread">Comments</a> -->
+              <br />
+              
+                <a class="tag" href="/tags/orienteering.html">#orienteering</a>
+              
+                <a class="tag" href="/tags/webdev.html">#webdev</a>
+              
+            </small>
+          </h4>
+
+          <p>Orienteering is map and compass navigation racing. Here in Puget Sound, the <a href="http://www.cascadeoc.org">Cascade Orienteering Club</a> hosts meets all year, some attended by more than four hundred competitors. Orienteering is an anti-climactic sport: competitors start individually in 2 minute intervals, race their course (through the woods and out of sight), and return to the finish. Even though this is a race for the fastest time, there is never a head-to-head race to the finish. Also, because every course is different, it can be hard to judge an individual’s performance.</p>
+
+<p>Live results provide coaches and competitors with faster feedback about the race. With this information on-site, individuals and teams can de-brief while still present in the environment, which likely leads to easier recognition of possible corrections and faster improvements.</p>
+
+<p><img src="/img/posts/WiFi-phone-home.png" alt="WiFi Results Home Page" /></p>
+
+<h3 id="system-design">System Design</h3>
+
+<p>Because many event sites have limited or no cell phone coverage, the entire system is designed around a web server broadcasting pages over a local WiFi network. As competitors finish the course, event software records information from their <a href="https://www.google.com/search?q=orienteering+electronic+punching" target="_blank">e-punch</a> (rfid-like tracking device) and compiles results. The event software is able to export preliminary results at set time intervals, which is the input data for the public live results system. The exported file is routed to a Raspberry Pi which processes it and builds a database each time a new file is received. Some local DNS tricks on a WiFi router and a web server running on the Pi allow anyone on site to connect to a public WiFi network and view the current results. Running this system on the Pi rather than directly on the event laptop helps with modularity and security.</p>
+
+<h3 id="technical-details">Technical Details</h3>
+
+<p>Check out the code (and the readme) on <a href="https://github.com/ercjns/O-coc-wifiscoring">GitHub</a>.</p>
+
+<p>The current server is built on the <a href="http://flask.pocoo.org/" target="_blank">Flask</a> micro-framework for Python and uses a SQLite database. It all runs on a <a href="https://www.raspberrypi.org/products/" target="_blank">Raspberry Pi 2</a>. The event software can export the preliminary results file (an .xml file) directly to a folder on the Pi thanks to a <a href="https://www.samba.org/samba/what_is_samba.html" target="_blank">samba</a> share. On the Pi, a simple script monitors this directory for changes. When a new file is detected, the script sends the file to the server (another process on the Pi) via HTTP POST request. The server reads the xml and loads the data to the database, recalculating points for individuals and teams. When a user connects to the local WiFi network and requests a page, the Pi dynamically builds and serves the appropriate html.</p>
+
+<h3 id="variations">Variations</h3>
+
+<p>At three events in February and March 2016, this system was successfully deployed (in areas with cell coverage) such that results were available both via an a internet-facing web server and via the local WiFi. This was trivial: a duplicate web-facing server was running on Heroku, and the script on the Pi was altered to POST each new results xml file to both the localhost and the internet server.</p>
+
+<p>At three events in Winter 2015-2016, this system captured and displayed information from the check or start control in real time, with the help of some additional hardware and integration of the socketIO library.</p>
+
+<p>Previous event software didn’t have periodic export functionality, so a solution was developed to intercept data as it was sent to the results ticket printer. This worked but was undesirable as the system existed within the critical path for the event. This solution was abandoned when the club independently decided to switch to different event software.</p>
+
+<p>Previous iterations of this project used <a href="http://expressjs.com/" target="_blank">Express</a> on node.js as the backbone. The project switched to python due to more stable support for python on the Pi and other potential hardware targets which were being investigated.</p>
+
+
+
+          
+<!-- Share Buttons Start -->
+<div>
+  <ul class="rrssb-buttons clearfix">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</div>
+
+<!-- Share Buttons End -->
+
+
+          
+
+
+          <hr />
+
+          
+          <div class="author row">
+            <img class="col-xs-4 col-sm-3 col-md-2" src="/img/ProfileS.jpg" alt="Me" />
+            <p class="col-xs-8 col-sm-9 col-md-10">
+              Eric Jones builds software that helps people. If he's not at a keyborad, he's probably running through the woods with a map and compass or carrying groceries home on his bicycle.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Start -->
+
+<footer>
+
+    <!-- Social Buttons Start -->
+
+<ul class="list-inline social-buttons">
+    
+    <li><a href="https://facebook.com/ercjns" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
+    
+    <li><a href="https://twitter.com/ercjns" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+    
+    <li><a href="https://github.com/ercjns" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+    
+    <li><a href="https://linkedin.com/in/ercjns" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+    
+    
+</ul>
+
+<!-- Social Buttons End -->
+
+
+    <p><br><br></p>
+
+    <div class="container text-center">
+        <p>Copyright &copy; Eric Jones 2017</p>
+        
+    </div>
+</footer>
+
+<p><br><br><br><br><br><br></p>
+
+<!-- Footer End -->
+
+
+    
+<!-- Javascript Start -->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<!--* Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.-->
+<script>
+function toggleNavCollapse(){50<$(".navbar").offset().top?$(".navbar-fixed-top").addClass("top-nav-collapse"):$(".navbar-fixed-top").removeClass("top-nav-collapse");}
+$(document).ready(toggleNavCollapse);
+$(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click",function(b){var a=$(this);$("html, body").stop().animate({scrollTop:$(a.attr("href")).offset().top-50},1500,"easeInOutExpo",function(){a.blur()});b.preventDefault()})});$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
+</script>
+
+
+
+
+
+  <!-- Syntax highlight in post pages-->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+
+
+  <!-- Share buttons Start -->
+
+  <script src="/js/rrssb.min.js"></script>
+
+  <!-- Share buttons End -->
+
+
+
+
+
+<script>
+function addTohistory() {
+  if (!window.location.host.startsWith("127.0.0.1")) {
+    history.pushState({}, 'Orienteering Live Results', 'http://localhost:4000/projects/2015/10/10/orienteering-live-results.html');
+  }
+}
+</script>
+
+<!-- Gesture Navigation / Swipe Instruction Start -->
+
+
+<!-- Javascript End -->
+
+
+  </body>
+</html>
+
+<!-- Post Layout End -->

@@ -1,0 +1,338 @@
+
+<!-- Post Layout Start -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+  
+<!-- HEAD Start -->
+
+<head>
+  
+
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Eric Jones">
+  <meta name="keywords" content="personal, blog, portfolio, resume, projects">
+  <link rel="canonical" href="/projects/2016/11/06/lost-time-orienteering.html">
+  <title>Eric Jones | Lost Time Orienteering</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Custom CSS -->
+  <link href="/css/grayscale.css" rel="stylesheet">
+  
+
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/rrssb.css" />
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+    <link rel="shortcut icon" type="image/x-icon" href="/img/EJ32.png">
+  
+
+  
+
+  
+
+
+
+  
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#000000">
+<!-- Windows Phone -->
+<meta name="msapplication-navbutton-color" content="#000000">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+
+  
+
+
+  <!-- Syntax highlight in post pages -->
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/monokai_sublime.min.css">
+
+
+
+
+</head>
+
+<!-- HEAD End -->
+
+
+  <body>
+
+    
+<!-- Navigation Start -->
+
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      
+        <a class="navbar-brand" href="/">
+      
+          <div>
+            
+            Eric Jones
+          </div>
+        </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        
+          <!-- Blog, Post, Tag and Error pages -->
+          
+            <li>
+            
+                <a href="/#about"> About </a>
+            
+            </li>
+          
+            <li>
+            
+              
+                <a href="/posts/"> Posts </a>
+              
+            
+            </li>
+          
+            <li>
+            
+                <a href="/#contact"> Contact </a>
+            
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Navigation End -->
+
+
+    <section id="post" class="container content-section text-center">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+
+          
+<!-- Swipe Instructions Start -->
+
+<div id="swipe-instruction">
+  <div>
+    <p><br><br><br></p>
+    <i id="hand-swipe" class="fa fa-hand-o-up"></i>
+    <p><strong>
+    
+      Did you know that you can navigate the posts by swiping left and right?
+    
+    </strong></p>
+    <button type="button" class="btn btn-default ok-btn close-swipe-instruction">
+      
+        Awesome!
+      
+    </button>
+  </div>
+</div>
+
+<!-- Swipe Instructions End -->
+
+
+          <h1><strong>Lost Time Orienteering</strong></h1>
+          <h4>
+            <small>
+            <strong>06 Nov 2016</strong>
+            
+              . category:
+              <a class="category" href="/categories/projects.html">
+                projects
+              </a>
+              <!-- <a href="/projects/2016/11/06/lost-time-orienteering.html#disqus_thread">Comments</a> -->
+              <br />
+              
+                <a class="tag" href="/tags/orienteering.html">#orienteering</a>
+              
+                <a class="tag" href="/tags/webdev.html">#webdev</a>
+              
+            </small>
+          </h4>
+
+          <p>I volunteer with the Cascade Orienteering Club results team, managing software and hardware that verifies course completion and calculates results. As soon as I started in this position, I noticed opportunities to simplify both pre- and post-meet tasks. Working off and on over about a year, I developed a web tool that simplifies the job. Fifteen minute tasks can now be completed in seconds, without worry of error.</p>
+
+<p><img src="/img/posts/LostTimeHeader2.png" alt="LostTimeOrienteering header" /></p>
+
+<p>Many of the tasks are data transformation, some are more complex calculations:</p>
+<ul>
+  <li>Load registration information from a couple sources into the meet management software.</li>
+  <li>Assign point values to finishers</li>
+  <li>Format results for posting to the CascadeOC website</li>
+  <li>Calculate team results</li>
+  <li>Calculate series standings</li>
+</ul>
+
+<p>While the tool is developed for CascadeOC, the architecture is such that any club may be able to leverage the tool for similar tasks with a little bit of additional configuration work.</p>
+
+<h3 id="technical-notes">Technical Notes</h3>
+<p>Python is my go-to language, and I’ve now built a number of sites using the <a href="http://flask.pocoo.org/" target="_blank">Flask</a> web development micro-framework. I’m hooked up to a SQLite database, which handles the (tiny) load with no issues.</p>
+
+<p>Major shout-out to <a href="https://msdn.microsoft.com/en-us/commandline/wsl/about" target="_blank">Windows Subsystem for Linux (aka Bash/Ubuntu on Windows)</a>. I’m able to develop on my PC without messing around with VMs or a linux partition, and I get an accurate representation of how the code will run on my web host’s linux box.</p>
+
+<p>You can view and make your own fork of the code on <a href="https://github.com/ercjns/LostTime" target="_blank">GitHub</a>; pull requests welcome.</p>
+
+
+          
+<!-- Share Buttons Start -->
+<div>
+  <ul class="rrssb-buttons clearfix">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</div>
+
+<!-- Share Buttons End -->
+
+
+          
+
+
+          <hr />
+
+          
+          <div class="author row">
+            <img class="col-xs-4 col-sm-3 col-md-2" src="/img/ProfileS.jpg" alt="Me" />
+            <p class="col-xs-8 col-sm-9 col-md-10">
+              Eric Jones builds software that helps people. If he's not at a keyborad, he's probably running through the woods with a map and compass or carrying groceries home on his bicycle.
+            </p>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Start -->
+
+<footer>
+
+    <!-- Social Buttons Start -->
+
+<ul class="list-inline social-buttons">
+    
+    <li><a href="https://facebook.com/ercjns" target="_blank"><i class="fa fa-facebook fa-fw"></i></a></li>
+    
+    <li><a href="https://twitter.com/ercjns" target="_blank"><i class="fa fa-twitter fa-fw"></i></a></li>
+    
+    <li><a href="https://github.com/ercjns" target="_blank"><i class="fa fa-github fa-fw"></i></a></li>
+    
+    <li><a href="https://linkedin.com/in/ercjns" target="_blank"><i class="fa fa-linkedin fa-fw"></i></a></li>
+    
+    
+</ul>
+
+<!-- Social Buttons End -->
+
+
+    <p><br><br></p>
+
+    <div class="container text-center">
+        <p>Copyright &copy; Eric Jones 2017</p>
+        
+    </div>
+</footer>
+
+<p><br><br><br><br><br><br></p>
+
+<!-- Footer End -->
+
+
+    
+<!-- Javascript Start -->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<!--* Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+* Code licensed under the Apache License v2.0.
+* For details, see http://www.apache.org/licenses/LICENSE-2.0.-->
+<script>
+function toggleNavCollapse(){50<$(".navbar").offset().top?$(".navbar-fixed-top").addClass("top-nav-collapse"):$(".navbar-fixed-top").removeClass("top-nav-collapse");}
+$(document).ready(toggleNavCollapse);
+$(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click",function(b){var a=$(this);$("html, body").stop().animate({scrollTop:$(a.attr("href")).offset().top-50},1500,"easeInOutExpo",function(){a.blur()});b.preventDefault()})});$(".navbar-collapse ul li a").click(function(){$(".navbar-toggle:visible").click()});
+</script>
+
+
+
+
+
+  <!-- Syntax highlight in post pages-->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+
+
+  <!-- Share buttons Start -->
+
+  <script src="/js/rrssb.min.js"></script>
+
+  <!-- Share buttons End -->
+
+
+
+
+
+<script>
+function addTohistory() {
+  if (!window.location.host.startsWith("127.0.0.1")) {
+    history.pushState({}, 'Lost Time Orienteering', 'http://localhost:4000/projects/2016/11/06/lost-time-orienteering.html');
+  }
+}
+</script>
+
+<!-- Gesture Navigation / Swipe Instruction Start -->
+
+
+<!-- Javascript End -->
+
+
+  </body>
+</html>
+
+<!-- Post Layout End -->
