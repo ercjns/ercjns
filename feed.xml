@@ -7,10 +7,23 @@
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Fake News</title>
+				
+				
+					<description>&lt;p&gt;I’ve been dreaming about ideas for a simple but off-hand useful twitter bot, and #fakenews became an opportunity. Most people who have taken an intro computer science course are familiar with markov chains. Without getting too technical, a &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain&quot; target=&quot;_blank&quot;&gt;markov chain&lt;/a&gt; is a process where the next outcome in the process, given the current state, is independent of past behavior, and where the possible outcomes are discrete known values. This algorithm turns out to be a great way to generate text that reads in a specific voice. (This isn’t a new trick - there are plenty of markov text generators around the web.)&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Wed, 18 Jan 2017 00:00:00 -0800</pubDate>
+				<link>http://localhost:4000/projects/2017/01/18/fake-news.html</link>
+				<guid isPermaLink="true">http://localhost:4000/projects/2017/01/18/fake-news.html</guid>
+			</item>
+		
+			<item>
 				<title>Chile</title>
 				
 				
-					<description>&lt;p&gt;Seven days on the full circuit in Torres del Paine National Park and a few other southern hemisphere adventures.&lt;/p&gt;
+					<description>&lt;p&gt;Seven days on the full circuit in &lt;a href=&quot;https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park&quot;&gt;Torres del Paine National Park&lt;/a&gt; and a few other southern hemisphere adventures.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/img/posts/chile-01-pass-pano.jpg&quot; alt=&quot;Looking West to Grey Glacier and the Patagonia Ice Sheet from John Gardner Pass&quot; /&gt;&lt;/p&gt;
 
@@ -19,9 +32,16 @@
 
 &lt;p&gt;The flight to Toronto is only half full. Just after takeoff, we pass through some strong turbulence. I can make out thunderheads lit from below by the suburban sprawl. Soon the ride settles out, and thankfully the baby one row behind me calms down as well.&lt;/p&gt;
 
-&lt;p&gt;It is clear as we arrive in Toronto. The CN Tower is lit modestly; the rest of the city looks crisp in the cool night air. A mix of orange and white streetlights stretch out to the horizon. The terminal is dark, which is appropriate as it’s nearing 11pm. We clear customs and continue to our connecting gate. Only after boarding the 777 do I start hearing the spanish all around me. I’ll do my best to sleep on this 10 hour journey to the Southern Hemisphere.&lt;/p&gt;
+&lt;p&gt;It is clear as we arrive in Toronto. The CN Tower is lit modestly; the rest of the city looks crisp in the cool night air. A mix of orange and white streetlights stretch out to the horizon. The terminal is dark, which is appropriate as it’s nearing eleven PM. We clear passport control and continue to our connecting gate. Only after boarding the 777 do I start hearing the spanish all around me. I’ll do my best to sleep on this ten hour journey to the Southern Hemisphere.&lt;/p&gt;
 
 &lt;p&gt;To be continued…&lt;/p&gt;
+
+&lt;h3 id=&quot;30-november-2016&quot;&gt;30 November, 2016&lt;/h3&gt;
+&lt;p&gt;About 40 minutes from landing in Santiago, I wake up and slide my window open. Outside, I see mountains bathing in bright sunshine, snowcapped and majestic. I hadn’t slept well. A number of crying children and a consistently bumpy ride never allowed me to get real sleep, although I’m not sure what I expected. My body hasn’t yet decided if the fact that there is only a two hour time difference between Atlanta and Santiago is good or bad, but I’m currently not excited for another three hours of flying later today.&lt;/p&gt;
+
+&lt;p&gt;After dumping our plane snacks from America and clearing customs, we are surrounded by drivers hounding for a fare into the city. Most speak good english, but we turn them down - we’re not looking for a ride. After checking bags for this afternoon’s flight, we get on a bus into town.&lt;/p&gt;
+
+&lt;p&gt;The beautiful views from 10,000 feet are now completely hidden by a blanket of smog. Speeding into town, sports fields fill the space between the highway and frontage roads. The pavement is full, mostly small sedans and buses, but also plenty of mopeds. We get off in a commercial district on the fringe of downtown and start to wander. School children enjoy their lunch and ice cream under trees in a park. Walking through a college campus there’s a non-zero chance of being hit by a stray water balloon. The storefronts on one street are all selling electric motors of every shape and size. We buy some food for the rest of the trip (we’re unsure what sort of supplies are available in Punta Arenas and Puerto Natales, or if there is significant markup) and catch the bus back to the airport.&lt;/p&gt;
 
 </description>
 				
