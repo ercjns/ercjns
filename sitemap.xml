@@ -15,7 +15,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/posts/</loc>
+        <loc>http://www.ercjns.com/posts/</loc>
         
           
           
@@ -28,7 +28,7 @@
   
     
       <url>
-        <loc>http://localhost:4000/</loc>
+        <loc>http://www.ercjns.com/</loc>
         
           
           
@@ -67,7 +67,7 @@
   
   
     <url>
-      <loc>http://localhost:4000/projects/2017/01/18/fake-news.html</loc>
+      <loc>http://www.ercjns.com/projects/2017/01/18/fake-news.html</loc>
       
         <lastmod>2017-01-18T00:00:00-08:00</lastmod>
       
@@ -76,7 +76,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/travel/2016/12/15/chile.html</loc>
+      <loc>http://www.ercjns.com/travel/2016/12/15/chile.html</loc>
       
         <lastmod>2016-12-15T00:00:00-08:00</lastmod>
       
@@ -85,7 +85,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/projects/2016/11/06/lost-time-orienteering.html</loc>
+      <loc>http://www.ercjns.com/projects/2016/11/06/lost-time-orienteering.html</loc>
       
         <lastmod>2016-11-06T00:00:00-07:00</lastmod>
       
@@ -94,7 +94,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/projects/2016/09/15/pizza-delivery.html</loc>
+      <loc>http://www.ercjns.com/projects/2016/09/15/pizza-delivery.html</loc>
       
         <lastmod>2016-09-15T00:00:00-07:00</lastmod>
       
@@ -103,7 +103,7 @@
     </url>
   
     <url>
-      <loc>http://localhost:4000/projects/2015/10/10/orienteering-live-results.html</loc>
+      <loc>http://www.ercjns.com/projects/2015/10/10/orienteering-live-results.html</loc>
       
         <lastmod>2015-10-10T00:00:00-07:00</lastmod>
       
