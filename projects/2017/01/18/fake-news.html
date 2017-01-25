@@ -174,9 +174,7 @@
 
 <p>For my part, I made the account <a href="https://twitter.com/fakenewssea">@FakeNewsSEA</a> which tweets out markov generated “headlines” - literally fake news.</p>
 
-<div style="border-radius:15px;border:3px solid;margin-bottom:35px;">
-<a class="twitter-timeline" data-height="400" data-theme="dark" href="https://twitter.com/FakeNewsSEA">Tweets by FakeNewsSEA</a> <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+<p><a class="twitter-timeline" data-height="400" data-width="550" data-theme="dark" href="https://twitter.com/FakeNewsSEA">Tweets by FakeNewsSEA</a> <script async="" src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 
 <p>To create a base of text to generate my headlines, I scrape actual headlines from RSS feeds provided by Seattle news outlets. This is super easy using the <a href="https://pythonhosted.org/feedparser/index.html">feedparser</a> library. Before passing the text into a Markov generator class (like <a href="https://gist.github.com/dellis23/6174914">this one</a>), I add markers to the start and end of each headline. Guaranteeing that the generated text starts with a word used to start a real headline helps the output read more realistically. End markers also help with this, as the more traditional method of trying to stop at a sentence ending doesn’t translate to headlines.</p>
 
