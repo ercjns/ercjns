@@ -7,16 +7,16 @@
 		<atom:link href="http://www.ercjns.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Fake News</title>
+				<title>Markov News</title>
 				
 				
-					<description>&lt;p&gt;I’ve been dreaming about ideas for a simple but off-hand useful twitter bot, and #fakenews became an opportunity. Most people who have taken an intro computer science course are familiar with markov chains. Without getting too technical, a &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain&quot; target=&quot;_blank&quot;&gt;markov chain&lt;/a&gt; is a process where the next outcome in the process, given the current state, is independent of past behavior, and where the possible outcomes are discrete known values. This algorithm turns out to be a great way to generate text that reads in a specific voice. (This isn’t a new trick - there are plenty of markov text generators around the web.)&lt;/p&gt;
+					<description>&lt;p&gt;I’ve been dreaming about ideas for a simple but off-hand useful (and fun!) twitter bot, and the ridiculous #fakenews sensation became an opportunity. Many people who have taken an intro computer science course are familiar with markov chains. Without getting too technical, a &lt;a href=&quot;https://en.wikipedia.org/wiki/Markov_chain&quot; target=&quot;_blank&quot;&gt;markov chain&lt;/a&gt; is a process where the next outcome in the process, given the current state, is independent of past behavior, and where the possible outcomes are discrete known values. This algorithm turns out to be a great way to generate text that reads in a specific voice. (This isn’t a new trick - there are plenty of markov text generators around the web.)&lt;/p&gt;
 
 </description>
 				
 				<pubDate>Wed, 18 Jan 2017 00:00:00 -0800</pubDate>
-				<link>http://www.ercjns.com/projects/2017/01/18/fake-news.html</link>
-				<guid isPermaLink="true">http://www.ercjns.com/projects/2017/01/18/fake-news.html</guid>
+				<link>http://www.ercjns.com/projects/2017/01/18/markov-news.html</link>
+				<guid isPermaLink="true">http://www.ercjns.com/projects/2017/01/18/markov-news.html</guid>
 			</item>
 		
 			<item>

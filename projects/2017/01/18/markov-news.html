@@ -16,9 +16,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Eric Jones builds software, travels by bicycle, and is only slightly obsessed with maps.">
   <meta name="author" content="Eric Jones">
-  <meta name="keywords" content="personal, blog, portfolio, resume, projects">
-  <link rel="canonical" href="/projects/2017/01/18/fake-news.html">
-  <title>Eric Jones | Fake News</title>
+  <meta name="keywords" content="Eric Jones, personal, blog, portfolio, resume, projects, travel">
+  <link rel="canonical" href="/projects/2017/01/18/markov-news.html">
+  <title>Eric Jones | Markov News</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -155,7 +155,7 @@
 <!-- Swipe Instructions End -->
 
 
-          <h1><strong>Fake News</strong></h1>
+          <h1><strong>Markov News</strong></h1>
           <h4>
             <small>
             <strong>18 Jan 2017</strong>
@@ -164,13 +164,13 @@
               <a class="category" href="/categories/projects.html">
                 projects
               </a>
-              <!-- <a href="/projects/2017/01/18/fake-news.html#disqus_thread">Comments</a> -->
+              <!-- <a href="/projects/2017/01/18/markov-news.html#disqus_thread">Comments</a> -->
               <br />
               
             </small>
           </h4>
 
-          <p>I’ve been dreaming about ideas for a simple but off-hand useful twitter bot, and #fakenews became an opportunity. Most people who have taken an intro computer science course are familiar with markov chains. Without getting too technical, a <a href="https://en.wikipedia.org/wiki/Markov_chain" target="_blank">markov chain</a> is a process where the next outcome in the process, given the current state, is independent of past behavior, and where the possible outcomes are discrete known values. This algorithm turns out to be a great way to generate text that reads in a specific voice. (This isn’t a new trick - there are plenty of markov text generators around the web.)</p>
+          <p>I’ve been dreaming about ideas for a simple but off-hand useful (and fun!) twitter bot, and the ridiculous #fakenews sensation became an opportunity. Many people who have taken an intro computer science course are familiar with markov chains. Without getting too technical, a <a href="https://en.wikipedia.org/wiki/Markov_chain" target="_blank">markov chain</a> is a process where the next outcome in the process, given the current state, is independent of past behavior, and where the possible outcomes are discrete known values. This algorithm turns out to be a great way to generate text that reads in a specific voice. (This isn’t a new trick - there are plenty of markov text generators around the web.)</p>
 
 <p>For my part, I made the account <a href="https://twitter.com/fakenewssea">@FakeNewsSEA</a> which tweets out markov generated “headlines” - literally fake news.</p>
 
@@ -333,7 +333,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'Fake News', 'http://www.ercjns.com/projects/2017/01/18/fake-news.html');
+    history.pushState({}, 'Markov News', 'http://www.ercjns.com/projects/2017/01/18/markov-news.html');
   }
 }
 </script>
