@@ -7,6 +7,57 @@
 		<atom:link href="http://www.ercjns.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Sharing Bicycles</title>
+				
+				
+					<description>&lt;p&gt;Bike share is a transportation option becoming more and more common around the world. Bicycles have always been a great method for combatting the &lt;a href=&quot;https://en.wikipedia.org/wiki/Last_mile_(transportation)&quot;&gt;last mile&lt;/a&gt; problem in transportation, and while current technology has allowed bike share to become much more practical to operate, the idea of a community bike pool has been around for decades. Cities &lt;a href=&quot;http://en.velib.paris.fr/&quot;&gt;of&lt;/a&gt; &lt;a href=&quot;http://topekametrobikes.org/&quot;&gt;all&lt;/a&gt; &lt;a href=&quot;https://www.biketownpdx.com/&quot;&gt;sizes&lt;/a&gt;, as well as &lt;a href=&quot;http://www.republicbike.com/google_bikes.asp&quot;&gt;corporate&lt;/a&gt; and &lt;a href=&quot;https://www.princeton.edu/main/news/archive/S45/95/35K87/index.xml?section=topstories&quot;&gt;college&lt;/a&gt; campuses have implemented bike share to help their communities move.&lt;/p&gt;
+
+&lt;p&gt;Here in Seattle, there is a bit of a sour relationship with bike share. After about two and a half years of service, &lt;a href=&quot;http://www.prontocycleshare.com/&quot;&gt;Pronto&lt;/a&gt; will close at the end of March, and plans for a possible replacement have been tabled. The Seattle Bike Blog has a ton of reporting on this, I suggest &lt;a href=&quot;http://www.seattlebikeblog.com/2016/02/04/pronto-needs-city-buyout-before-end-of-march-how-did-we-get-here/&quot;&gt;this article&lt;/a&gt; as a good place to start if you want all the history. There have been a number of reports about why bike share may have failed in Seattle, but that’s not my goal here. Instead, I’d like to take a positive spin. More often than not, bicycle riders, especially those on the heavy, cruiser style bikes that most modern bike share systems use, are smiling. Let’s take a look at the joy Pronto brought to Seattle.&lt;/p&gt;
+
+&lt;h3 id=&quot;enjoying-the-waterfront&quot;&gt;Enjoying The Waterfront&lt;/h3&gt;
+
+&lt;p&gt;During the summer (and other seasons too!) you’ll find gobs of people passing time in &lt;a href=&quot;https://www.seattle.gov/parks/find/parks/myrtle-edwards-park&quot;&gt;Myrtle Edwards Park&lt;/a&gt; along the waterfront in lower Queen Anne, north of downtown. The folks at Proto knew this, and placed a station at the south end of the park, where Alaskan turns away from the water and the Elliott Bay Trail begins. Here’s a simple chart showing the number of rentals beginning at each station during 2015 and 2016. &lt;em&gt;WF-01&lt;/em&gt; at Alaskan Way and Clay, just a block from the Sculpture Park, was the starting point for nearly two thousand more rides than any other station over the two years.&lt;/p&gt;
+
+&lt;div style=&quot;margin-bottom:35px&quot;&gt;
+    &lt;a href=&quot;https://plot.ly/~ercjns/106/?share_key=QnTSge88Ub2y8NtAqVxUnA&quot; target=&quot;_blank&quot; title=&quot;Trips By Station&quot; style=&quot;display: block; text-align: center;&quot;&gt;&lt;img src=&quot;https://plot.ly/~ercjns/106.png?share_key=QnTSge88Ub2y8NtAqVxUnA&quot; alt=&quot;Trips By Station&quot; style=&quot;max-width: 100%;width: 600px; max-height: 500px;&quot; width=&quot;600&quot; onerror=&quot;this.onerror=null;this.src='https://plot.ly/404.png';&quot; /&gt;&lt;/a&gt;
+    &lt;script data-plotly=&quot;ercjns:106&quot; sharekey-plotly=&quot;QnTSge88Ub2y8NtAqVxUnA&quot; src=&quot;https://plot.ly/embed.js&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;joyrides&quot;&gt;Joyrides&lt;/h3&gt;
+
+&lt;p&gt;It shouldn’t come as a surprise that many of the riders departing from Alaskan and Clay also returned their bikes there. This station had the highest percentage of return trips with nearly 35% of trips starting and ending at &lt;em&gt;WF-01&lt;/em&gt;. But where else did users go for joyrides? Overall, 8.1% of trips started and ended at the same station, but four other stations had return rates over 20%, as shown below. Where are these stations? &lt;em&gt;DPD-03&lt;/em&gt; is at the Children’s Hospital on Sandpoint Way, where Pronto provided an opportunity for Doctors, Nurses, and Visitors to take a break and enjoy the nearby Burke Gilman Trail. &lt;em&gt;UD-01&lt;/em&gt; provided a similar opportunity for employees of U-Village and Ravenna/Bryant residents. The two other stations are in the heart of the U District: &lt;em&gt;UD-07&lt;/em&gt; at 47th and 12th and &lt;em&gt;UW-02&lt;/em&gt; at the Burke Museum on the NW corner of the UW campus. I won’t speculate on the possible activities but the beauty is that these stations all provided the joy of a spontaneous bike ride.&lt;/p&gt;
+
+&lt;div style=&quot;margin-bottom:35px&quot;&gt;
+    &lt;a href=&quot;https://plot.ly/~ercjns/108/?share_key=qUm19ZjrdB7YsGSsg5BVSl&quot; target=&quot;_blank&quot; title=&quot;Pronto Round-Trips&quot; style=&quot;display: block; text-align: center;&quot;&gt;&lt;img src=&quot;https://plot.ly/~ercjns/108.png?share_key=qUm19ZjrdB7YsGSsg5BVSl&quot; alt=&quot;Pronto Round-Trips&quot; style=&quot;max-width: 100%;width: 600px; max-height: 500px;&quot; width=&quot;600&quot; onerror=&quot;this.onerror=null;this.src='https://plot.ly/404.png';&quot; /&gt;&lt;/a&gt;
+    &lt;script data-plotly=&quot;ercjns:108&quot; sharekey-plotly=&quot;qUm19ZjrdB7YsGSsg5BVSl&quot; src=&quot;https://plot.ly/embed.js&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;biking-with-friends&quot;&gt;Biking with Friends&lt;/h3&gt;
+
+&lt;p&gt;Riding just for riding is great, but riding with friends is even better! The Pronto data can’t capture when someone rents a Pronto bike to join a friend on a personal bike, but I can make some estimations about when groups rent Pronto bikes together. For my analysis, I looked for trips which started and ended at the same station, and which started and ended within two minutes of each other. There were plenty of pairs, but there were plenty of large groups too!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A group of eight rode from The Space Needle (&lt;em&gt;SLU-22&lt;/em&gt;) to The Sculpture Park (&lt;em&gt;WF-01&lt;/em&gt;) at 8pm in August 2016 - just in time to see watch the sunset from the water!&lt;/li&gt;
+  &lt;li&gt;A group of twelve (!) enjoyed the waterfront from Occidental Park (&lt;em&gt;PS-04&lt;/em&gt;) to the Sculpture Park (&lt;em&gt;WF-01&lt;/em&gt;) in June 2016.&lt;/li&gt;
+  &lt;li&gt;A group of six chose Pronto bicycles for the six-block journey from 3rd and Broad (&lt;em&gt;BT-01&lt;/em&gt;) to 2nd and Vine (&lt;em&gt;BT-03&lt;/em&gt;). I’ll never know if they were just starting their night or ending a long day at 10pm on a Saturday night in August 2015.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Of the 242897 trips in my the dataset, 56403 (23.2%) were a trip made with Friends. Below you’ll see the distribution of group sizes. The distribution is as expected (tons of pairs, fewer as group size increases), but the real takeaway here is the sheer volume. Taken on average, every single day there was a group of four more enjoying cycling together using Pronto bikes!&lt;/p&gt;
+
+&lt;div style=&quot;margin-bottom:35px&quot;&gt;
+    &lt;a href=&quot;https://plot.ly/~ercjns/104/?share_key=BfMErkpkmjqKg6VOxwArCb&quot; target=&quot;_blank&quot; title=&quot;Groups Histogram&quot; style=&quot;display: block; text-align: center;&quot;&gt;&lt;img src=&quot;https://plot.ly/~ercjns/104.png?share_key=BfMErkpkmjqKg6VOxwArCb&quot; alt=&quot;Groups Histogram&quot; style=&quot;max-width: 100%;width: 600px; max-height: 500px;&quot; width=&quot;600&quot; onerror=&quot;this.onerror=null;this.src='https://plot.ly/404.png';&quot; /&gt;&lt;/a&gt;
+    &lt;script data-plotly=&quot;ercjns:104&quot; sharekey-plotly=&quot;BfMErkpkmjqKg6VOxwArCb&quot; src=&quot;https://plot.ly/embed.js&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;the-joy-of-bicycles&quot;&gt;The Joy of Bicycles&lt;/h3&gt;
+&lt;p&gt;There is so much to love about bicycles: seeing new things! riding with friends! going fast! beating the bus! enjoying life! There’s a lot more joy to be found in this data, and I hope to periodically update this post with more findings. Thanks, Pronto, for helping support the joy of bicycling in Seattle for the past two years.&lt;/p&gt;
+</description>
+				
+				<pubDate>Tue, 14 Feb 2017 00:00:00 -0800</pubDate>
+				<link>http://www.ercjns.com/projects/2017/02/14/sharing-bicycles.html</link>
+				<guid isPermaLink="true">http://www.ercjns.com/projects/2017/02/14/sharing-bicycles.html</guid>
+			</item>
+		
+			<item>
 				<title>Markov News</title>
 				
 				
