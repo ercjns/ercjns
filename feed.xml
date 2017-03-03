@@ -7,6 +7,44 @@
 		<atom:link href="http://www.ercjns.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>A Quiet Approach to PM</title>
+				
+				
+					<description>&lt;p&gt;One of my friends recently posted a &lt;a href=&quot;https://medium.com/@nkkl/ballad-of-the-type-b-pm-33dfb4428a73&quot;&gt;short note&lt;/a&gt; about different PM archetypes that are explicitly &lt;em&gt;not&lt;/em&gt; Type A personalities. It really resonated with me. Go ahead and read it now (3 min), then come back here for a bit of my own thoughts and experience.&lt;/p&gt;
+
+&lt;p&gt;…&lt;/p&gt;
+
+&lt;p&gt;In my first job out of college, I spent two and a half years as a Program Manager at Microsoft, working on the &lt;a href=&quot;https://dev.windows.com&quot;&gt;Windows Developer Center&lt;/a&gt;, the backbone for Microsoft’s competitor to the Apple App Store and Google Play. The Microsoft PM culture I experienced places a higher value on winning than on helping - this didn’t sit well with me. A private note I wrote at the time is a good summary of my general approach to PM, a subtext to my frustrations:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Listen to all of my teammates and find out individual, candid opinions of what’s great and what is bothersome. Never put my own opinion on a shining platter - it doesn’t have a special blessing just because I’m in the PM role. I don’t want to be calling all the shots - so I don’t, I make sure my team calls the shots.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m a facilitator and a strong believer that everyone is more productive when success is more than the result at the end of a series of checklists. I love the empathy driven aspect of program management - to discover and communicate user needs to the development team and to create a solution that satisfies those needs. I know I have a lot to learn from those around me, and so I choose to make the communication and discovery a two-way street, an opportunity for team learning. That might be my most radical step away from “traditional” Type A PM strategies - I happily hold court rather than issuing a decree on product direction. I’m not interested in personally winning - I’m here for the team.&lt;/p&gt;
+
+&lt;p&gt;In itself, PM as facilitator is not a novel approach, but I was surprised by how much I stood out. That said, I worked hard, stuck to my principles, and found success. During daily standup and in one-off interactions, I kept developers aware of a project’s impact, elevating the focus above checking off isolated tasks. Even when an aspect of my spec was lacking, developers I worked with often managed to get it right the first time through implementation. We hashed out functional designs on developers’ white boards rather than my own where they couldn’t be referenced during coding. I made my office a space where no question is a dumb question, a place for discussing ideas as well as prioritization. I worked well with developers, but interactions with the PM team were a different story.&lt;/p&gt;
+
+&lt;p&gt;The group who I most expected to sympathize with customer stories (and the supporting data) appeared surprisingly stubborn to me. Prioritization exercises were too often won by the loudest voice in the room. While team slogged through must-have features as we played catch-up to other app ecosystems, I heard more references to competitor designs than to telemetry of our own users. When more resources became available to build new competitive features, I took the chance to instead drive something internally.&lt;/p&gt;
+
+&lt;p&gt;In this project I developed telemetry infrastructure and a &lt;a href=&quot;https://powerbi.microsoft.com&quot;&gt;Power BI&lt;/a&gt; dashboard so that individual PMs, developers, and business leaders could more easily drill into the details behind the KPIs (Key Performance Indicators) being reported to leadership. Bringing easily questioned cross-team data to PM fingertips was a win worthy of the repeated demos and celebratory e-mails. I felt good about the project’s success, but the bragging still felt out of place. To me, this was simply another way to help my teammates to do their best work.&lt;/p&gt;
+
+&lt;p&gt;During my last year at Microsoft, I reached out to one of my previous managers for mentorship. My manager at the time was sympathetic to and appreciative of my team-building approach to driving progress, but I wasn’t sure about how to approach others on the PM team - the culture still felt overly self-centered. I wanted new strategies to experiment with while still being my authentic, pensive, pondering, but deliberate, self. Show more data. Speak up more. Celebrate achievements. Advocate for yourself. The suggestions made sense as career advice, but were hard to reconcile with my identity.&lt;/p&gt;
+
+&lt;p&gt;My previous manager also mentioned that I wasn’t alone in my feelings: a respected colleague had decided to move on partly due to a similar internal conflict of helping versus winning. She delivered objectively great work, but had decided something wasn’t quite right. Helpfulness is a distinctly different feeling from the winning focus that seemed to fuel (and promote) my peers, and the latter had little appeal to me. I left Microsoft a few months after that conversation.&lt;/p&gt;
+
+&lt;p&gt;So where does that leave the Type B PM? Every team, every company is different; not every pair will be a good fit. Of course, just as a great PM smoothly adapts a project to changing requirements and resource constraints, he (she) shouldn’t forget to also adapt himself (herself), and his (her) approaches. Find what your teammates need, and help them do it, whatever it takes. Be yourself, but also occasionally let go and &lt;em&gt;be someone who you never thought you’d be&lt;/em&gt;. I’m still experimenting with that last challenge - I like to think that every human is.&lt;/p&gt;
+
+&lt;p&gt;The cookie-cutter PM may be a Type A control freak, but diversity of approaches across a PM team can create value the same way diversity of backgrounds fuels creativity and openness through new perspectives. We all build delightful experiences by empathizing with users and wrangling teams to deliver, and every individual has their own way to be authentic and successful. It doesn’t always work out, and that’s a big part of why you’re there as a PM in the first place: to climb back aboard and get the wheels spinning again.&lt;/p&gt;
+
+&lt;p&gt;(And if you’re looking to add a PM to your team who values teammates just like customers, or know someone who is, I’d love to hear from you.)&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 03 Mar 2017 00:00:00 -0800</pubDate>
+				<link>http://www.ercjns.com/life/2017/03/03/quiet-approach-to-pm.html</link>
+				<guid isPermaLink="true">http://www.ercjns.com/life/2017/03/03/quiet-approach-to-pm.html</guid>
+			</item>
+		
+			<item>
 				<title>Sharing Bicycles</title>
 				
 				
