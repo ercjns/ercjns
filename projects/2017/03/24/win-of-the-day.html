@@ -1,5 +1,5 @@
 
-<!-- Tag Layout Start -->
+<!-- Post Layout Start -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,8 +17,8 @@
   <meta name="description" content="Eric Jones builds software, travels by bicycle, and is only slightly obsessed with maps.">
   <meta name="author" content="Eric Jones">
   <meta name="keywords" content="Eric Jones, personal, blog, portfolio, resume, projects, travel">
-  <link rel="canonical" href="/tags/life.html">
-  <title>Eric Jones | life</title>
+  <link rel="canonical" href="/projects/2017/03/24/win-of-the-day.html">
+  <title>Eric Jones | What's your Win of the Day?</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -59,6 +59,12 @@
 
 
   
+
+
+  <!-- Syntax highlight in post pages -->
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/monokai_sublime.min.css">
+
 
 
 
@@ -122,144 +128,112 @@
 <!-- Navigation End -->
 
 
-    <section class="container content-section text-center">
+    <section id="post" class="container content-section text-center">
       <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+        <div class="col-md-10 col-md-offset-1">
+
+          
+<!-- Swipe Instructions Start -->
+
+<div id="swipe-instruction">
+  <div>
+    <p><br><br><br></p>
+    <i id="hand-swipe" class="fa fa-hand-o-up"></i>
+    <p><strong>
+    
+      Did you know that you can navigate the posts by swiping left and right?
+    
+    </strong></p>
+    <button type="button" class="btn btn-default ok-btn close-swipe-instruction">
+      
+        Awesome!
+      
+    </button>
+  </div>
+</div>
+
+<!-- Swipe Instructions End -->
+
+
+          <h1><strong>What's your Win of the Day?</strong></h1>
+          <h4>
+            <small>
+            <strong>24 Mar 2017</strong>
+            
+              . category:
+              <a class="category" href="/categories/projects.html">
+                projects
+              </a>
+              <!-- <a href="/projects/2017/03/24/win-of-the-day.html#disqus_thread">Comments</a> -->
+              <br />
+              
+                <a class="tag" href="/tags/webdev.html">#webdev</a>
+              
+                <a class="tag" href="/tags/life.html">#life</a>
+              
+            </small>
+          </h4>
+
+          <p>Over the past week I built a little web app where anyone can come and record a win of the day. I hope this idea can grow into a nice bright corner of the internet. <a href="https://WinOfTheDay.com">Celebrate your Win of the Day</a>.</p>
+
+<p><img src="/img/posts/wotd.png" alt="Small wins" /></p>
+
+<h3 id="motivation">Motivation</h3>
+<p>For me, writing down a win of the day is a great way to reflect and recharge. Sometimes it feels like everything is going wrong, but even on days like those I can find something positive to keep me going. It doesn’t have to be big or special, it’s OK to feel good about the little things too. Maybe I did some cleaning, or spent some time outside, or simply got out of bed. We all have those days. And on days when things are going great, it’s exciting to reflect and celebrate.</p>
+
+<p>Everyone has their own strengths and weaknesses that are changing all the time. I built Win of the Day to never publicly attach a username to a win because this isn’t about competition. It’s about individuals each doing their best; it’s about finding happiness in the joy of success for you and for others, no matter how big or how small.</p>
+
+<h3 id="technical-notes">Technical Notes</h3>
+<p>This is yet another <a href="http://flask.pocoo.org/">Flask</a> app, so I reused a lot of boilerplate code, but also tried a few new packages. This site allows users to login and also has some pages restricted to moderators, so I needed to implement an authentication and authorization scheme.</p>
+
+<p>I <em>hate</em> using social login for random web sites, so everything is happening in flask and my own database. Don’t worry, I didn’t write my own security - I’m <a href="https://en.wikipedia.org/wiki/Salt_(cryptography)">salting</a> password values and using a <a href="https://en.wikipedia.org/wiki/Bcrypt">bcrypt</a> library for hashing and password checking.</p>
+
+<p>Speaking of security and passwords, you’ve probably noticed that web browsers are starting to raise more alarms when the browser detects a form transmitting data over an insecure connection. Luckily, my web host makes it super easy to to generate and install certificates from <a href="https://letsencrypt.org/">Let’s Encrypt</a>. With a certificate in place, the Flask-SSLify library makes it trivial to force requests to be made over https.</p>
+
+<p>You can browse the code on <a href="https://github.com/ercjns/WinOfTheDay">github</a>. Feedback and pull requests welcome.</p>
+
+
+          
+<!-- Share Buttons Start -->
+<div>
+  <ul class="rrssb-buttons clearfix">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  </ul>
+</div>
+
+<!-- Share Buttons End -->
+
+
+          
+            
+<!-- Disqus Comments Start -->
+
+
+
+<!-- Disqus Comments End -->
 
           
 
-          <h3 id="#life">#life</h3>
 
-          <div>
-            
-              
-                
-                
-              
-                
-                
-                  
-<!-- Post List Start -->
+          <hr />
 
-<h4 align="left">
-  <strong>24 Mar 2017</strong>
-  <small>.
-    <a class="category" href="/categories/projects.html">
-      projects
-    </a>
-  .</small>
-  <br class="visible-xs-block">
-  <a href="/projects/2017/03/24/win-of-the-day.html">
-    <strong>What's your Win of the Day?</strong>
-  </a>
-  <!-- <br class="visible-xs-block">
-  <small><a href="/projects/2017/03/24/win-of-the-day.html#disqus_thread">Comments</a></small>
-  -->
-</h4>
-
-<!-- Post List End -->
-
-                
-              
-            
-              
-                
-                
-              
-                
-                
-                  
-<!-- Post List Start -->
-
-<h4 align="left">
-  <strong>03 Mar 2017</strong>
-  <small>.
-    <a class="category" href="/categories/life.html">
-      life
-    </a>
-  .</small>
-  <br class="visible-xs-block">
-  <a href="/life/2017/03/03/quiet-approach-to-pm.html">
-    <strong>A Quiet Approach to PM</strong>
-  </a>
-  <!-- <br class="visible-xs-block">
-  <small><a href="/life/2017/03/03/quiet-approach-to-pm.html#disqus_thread">Comments</a></small>
-  -->
-</h4>
-
-<!-- Post List End -->
-
-                
-              
-            
-              
-                
-                
-              
-                
-                
-              
-            
-              
-            
-              
-                
-                
-              
-            
-              
-                
-                
-                  
-<!-- Post List Start -->
-
-<h4 align="left">
-  <strong>15 Dec 2016</strong>
-  <small>.
-    <a class="category" href="/categories/travel.html">
-      travel
-    </a>
-  .</small>
-  <br class="visible-xs-block">
-  <a href="/travel/2016/12/15/chile.html">
-    <strong>Chile</strong>
-  </a>
-  <!-- <br class="visible-xs-block">
-  <small><a href="/travel/2016/12/15/chile.html#disqus_thread">Comments</a></small>
-  -->
-</h4>
-
-<!-- Post List End -->
-
-                
-              
-                
-                
-              
-            
-              
-                
-                
-              
-                
-                
-              
-            
-              
-                
-                
-              
-            
-              
-                
-                
-              
-                
-                
-              
-            
+          
+          <div class="author row">
+            <img class="col-xs-4 col-sm-3 col-md-2" src="/img/ProfileS.jpg" alt="Me" />
+            <p class="col-xs-8 col-sm-9 col-md-10">
+              Eric Jones builds software that helps people. If he's not at a keyborad, he's probably running through the woods with a map and compass or carrying groceries home on his bicycle.
+            </p>
           </div>
-
+          
         </div>
       </div>
     </section>
@@ -326,6 +300,13 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 
 
+  <!-- Syntax highlight in post pages-->
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+
 
   
 
@@ -349,12 +330,20 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 
 
+  <!-- Share buttons Start -->
+
+  <script src="/js/rrssb.min.js"></script>
+
+  <!-- Share buttons End -->
+
+
+
 
 
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'life', 'http://www.ercjns.com/tags/life.html');
+    history.pushState({}, 'What's your Win of the Day?', 'http://www.ercjns.com/projects/2017/03/24/win-of-the-day.html');
   }
 }
 </script>
@@ -368,4 +357,4 @@ function addTohistory() {
   </body>
 </html>
 
-<!-- Tag Layout End -->
+<!-- Post Layout End -->

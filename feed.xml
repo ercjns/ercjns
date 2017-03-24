@@ -7,6 +7,34 @@
 		<atom:link href="http://www.ercjns.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>What's your Win of the Day?</title>
+				
+				
+					<description>&lt;p&gt;Over the past week I built a little web app where anyone can come and record a win of the day. I hope this idea can grow into a nice bright corner of the internet. &lt;a href=&quot;https://WinOfTheDay.com&quot;&gt;Celebrate your Win of the Day&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/posts/wotd.png&quot; alt=&quot;Small wins&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;motivation&quot;&gt;Motivation&lt;/h3&gt;
+&lt;p&gt;For me, writing down a win of the day is a great way to reflect and recharge. Sometimes it feels like everything is going wrong, but even on days like those I can find something positive to keep me going. It doesn’t have to be big or special, it’s OK to feel good about the little things too. Maybe I did some cleaning, or spent some time outside, or simply got out of bed. We all have those days. And on days when things are going great, it’s exciting to reflect and celebrate.&lt;/p&gt;
+
+&lt;p&gt;Everyone has their own strengths and weaknesses that are changing all the time. I built Win of the Day to never publicly attach a username to a win because this isn’t about competition. It’s about individuals each doing their best; it’s about finding happiness in the joy of success for you and for others, no matter how big or how small.&lt;/p&gt;
+
+&lt;h3 id=&quot;technical-notes&quot;&gt;Technical Notes&lt;/h3&gt;
+&lt;p&gt;This is yet another &lt;a href=&quot;http://flask.pocoo.org/&quot;&gt;Flask&lt;/a&gt; app, so I reused a lot of boilerplate code, but also tried a few new packages. This site allows users to login and also has some pages restricted to moderators, so I needed to implement an authentication and authorization scheme.&lt;/p&gt;
+
+&lt;p&gt;I &lt;em&gt;hate&lt;/em&gt; using social login for random web sites, so everything is happening in flask and my own database. Don’t worry, I didn’t write my own security - I’m &lt;a href=&quot;https://en.wikipedia.org/wiki/Salt_(cryptography)&quot;&gt;salting&lt;/a&gt; password values and using a &lt;a href=&quot;https://en.wikipedia.org/wiki/Bcrypt&quot;&gt;bcrypt&lt;/a&gt; library for hashing and password checking.&lt;/p&gt;
+
+&lt;p&gt;Speaking of security and passwords, you’ve probably noticed that web browsers are starting to raise more alarms when the browser detects a form transmitting data over an insecure connection. Luckily, my web host makes it super easy to to generate and install certificates from &lt;a href=&quot;https://letsencrypt.org/&quot;&gt;Let’s Encrypt&lt;/a&gt;. With a certificate in place, the Flask-SSLify library makes it trivial to force requests to be made over https.&lt;/p&gt;
+
+&lt;p&gt;You can browse the code on &lt;a href=&quot;https://github.com/ercjns/WinOfTheDay&quot;&gt;github&lt;/a&gt;. Feedback and pull requests welcome.&lt;/p&gt;
+</description>
+				
+				<pubDate>Fri, 24 Mar 2017 00:00:00 -0700</pubDate>
+				<link>http://www.ercjns.com/projects/2017/03/24/win-of-the-day.html</link>
+				<guid isPermaLink="true">http://www.ercjns.com/projects/2017/03/24/win-of-the-day.html</guid>
+			</item>
+		
+			<item>
 				<title>A Quiet Approach to PM</title>
 				
 				
