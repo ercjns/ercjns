@@ -18,6 +18,8 @@
     
   
     
+  
+    
       <url>
         <loc>http://www.ercjns.com/posts/</loc>
         
@@ -73,6 +75,28 @@
   
     
   
+    
+      <url>
+        <loc>http://www.ercjns.com/posts/page2/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+  
+    <url>
+      <loc>http://www.ercjns.com/projects/2017/05/25/creating-being-lost.html</loc>
+      
+        <lastmod>2017-05-25T00:00:00-07:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
   
     <url>
       <loc>http://www.ercjns.com/life/2017/04/20/for-the-planet.html</loc>
