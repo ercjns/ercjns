@@ -7,6 +7,22 @@
 		<atom:link href="http://www.ercjns.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Bikes on the Freeway!</title>
+				
+				
+					<description>&lt;p&gt;This weekend I rode in the &lt;a href=&quot;https://www.cascade.org/rides-major-rides/emerald-bike-ride&quot;&gt;Emerald Bike Ride&lt;/a&gt; hosted by Cascade Bicycle Club. This was the ride’s second year, and it was an amazing route that won’t ever be exactly duplicated. Though it didn’t sell out (as the inaugural ride did), the freeways (we rode on closed portions of I-5, WA-520, and I-90) were still jammed with bikes, including riders of all ages and a good number of unicycles on the 25 mile loop. I take every chance I get to ride or run on shutdown freeways. Experiencing the massive infrastructure while not inside a car gives great perspective for how much space freeways use. Big thanks to &lt;a href=&quot;https://www.cascade.org&quot;&gt;Cascade&lt;/a&gt; for continuing to organize this ride and to WSDOT and the cities for allowing it to happen.&lt;/p&gt;
+
+&lt;p&gt;Additionally, I’ve been looking for a good chance to try my hand at producing some video as a side project, and this turned out to be a great opportunity. I learned a lot of new tools, spent a lot of time fighting myself (and my editing software), and ultimately ended up with something I’m pretty happy with given it’s my first try. I hope you enjoy.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/LDwdlvEPffs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+				
+				<pubDate>Mon, 29 May 2017 00:00:00 -0700</pubDate>
+				<link>http://www.ercjns.com/life/2017/05/29/bikes-on-the-freeway.html</link>
+				<guid isPermaLink="true">http://www.ercjns.com/life/2017/05/29/bikes-on-the-freeway.html</guid>
+			</item>
+		
+			<item>
 				<title>Creating Being Lost</title>
 				
 				
@@ -477,25 +493,6 @@
 				<pubDate>Sun, 06 Nov 2016 00:00:00 -0700</pubDate>
 				<link>http://www.ercjns.com/projects/2016/11/06/lost-time-orienteering.html</link>
 				<guid isPermaLink="true">http://www.ercjns.com/projects/2016/11/06/lost-time-orienteering.html</guid>
-			</item>
-		
-			<item>
-				<title>Pizza Delivery</title>
-				
-				
-					<description>&lt;p&gt;My uncle runs a couple of pizza delivery stores in the Greenville, SC area. His web host and site template provider functionally disappeared in June 2016. I was able to recover most of his site content from the &lt;a href=&quot;https://web.archive.org&quot; target=&quot;_blank&quot;&gt;wayback machine&lt;/a&gt;, but with the editing software gone in the wind, he was unable to make updates. This was as good a catalyst as any to have his site re-built from the ground up.&lt;/p&gt;
-
-&lt;p&gt;While I’ve built basic websites previously, I had never taken a project where I needed to hand over full control to a less technical person at the end of development. I brushed up on WordPress and spent some time learning about his business before building out his new site. Ultimately we ended up with something I’m proud of and something that my uncle can update himself except in extreme cases, so I’m quite happy.&lt;/p&gt;
-
-&lt;p&gt;Oh, and the pizza is good too! If you’re in the area, grab some grub from &lt;a href=&quot;http://www.wedgysonline.com&quot; target=&quot;_blank&quot;&gt;Wedgy’s Pizza Delivery&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/posts/Wedgys.png&quot; alt=&quot;Wedgy's Pizza Delivery&quot; /&gt;&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 15 Sep 2016 00:00:00 -0700</pubDate>
-				<link>http://www.ercjns.com/projects/2016/09/15/pizza-delivery.html</link>
-				<guid isPermaLink="true">http://www.ercjns.com/projects/2016/09/15/pizza-delivery.html</guid>
 			</item>
 		
 	</channel>
