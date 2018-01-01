@@ -17,8 +17,8 @@
   <meta name="description" content="Eric Jones builds software, travels by bicycle, and is only slightly obsessed with maps.">
   <meta name="author" content="Eric Jones">
   <meta name="keywords" content="Eric Jones, personal, blog, portfolio, resume, projects, travel">
-  <link rel="canonical" href="/projects/2015/10/10/orienteering-live-results.html">
-  <title>Eric Jones | Orienteering Live Results</title>
+  <link rel="canonical" href="/life/2018/01/01/looking-forward-and-back.html">
+  <title>Eric Jones | Looking Forward and Back</title>
 
   <!-- Bootstrap Core CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -155,51 +155,75 @@
 <!-- Swipe Instructions End -->
 
 
-          <h1><strong>Orienteering Live Results</strong></h1>
+          <h1><strong>Looking Forward and Back</strong></h1>
           <h4>
             <small>
-            <strong>10 Oct 2015</strong>
+            <strong>01 Jan 2018</strong>
             
               . category:
-              <a class="category" href="/categories/projects.html">
-                projects
+              <a class="category" href="/categories/life.html">
+                life
               </a>
-              <!-- <a href="/projects/2015/10/10/orienteering-live-results.html#disqus_thread">Comments</a> -->
+              <!-- <a href="/life/2018/01/01/looking-forward-and-back.html#disqus_thread">Comments</a> -->
               <br />
               
-                <a class="tag" href="/tags/orienteering.html">#orienteering</a>
-              
-                <a class="tag" href="/tags/webdev.html">#webdev</a>
+                <a class="tag" href="/tags/life.html">#life</a>
               
             </small>
           </h4>
 
-          <p>Orienteering is map and compass navigation racing. Here in Puget Sound, the <a href="http://www.cascadeoc.org">Cascade Orienteering Club</a> hosts meets all year, some attended by more than four hundred competitors. Orienteering is an anti-climactic sport: competitors start individually in 2 minute intervals, race their course (through the woods and out of sight), and return to the finish. Even though this is a race for the fastest time, there is never a head-to-head race to the finish. Also, because every course is different, it can be hard to judge an individual’s performance.</p>
+          <p>Welcome to 2018. You made it! Congratulations!</p>
 
-<p>Live results provide coaches and competitors with faster feedback about the race. With this information on-site, individuals and teams can de-brief while still present in the environment, which likely leads to easier recognition of possible corrections and faster improvements.</p>
+<p>For many, December 31 marks an end, and January 1 a new beginning. Sure, a date is a bit arbitrary in the grand scheme of things, but the turning of the year is as good a reminder as any that it is important to take time to reflect on the past in order to make the most of the future. There is a lot that happened in 2017. 365 days. 8760 hours. Time for a slightly closer look.</p>
 
-<p><img src="/img/posts/WiFi-phone-home.png" alt="WiFi Results Home Page" /></p>
+<h2 id="a-year-in-review">A year in review</h2>
+<p>Simply, here’s a happy memory or accomplishment from each month of my 2017. Some are big events, some just small encounters that I’m glad I came across. Remember that everything you accomplish or enjoy - no matter the size - is important because it makes you who you are, and no one can take that from you.</p>
 
-<h3 id="system-design">System Design</h3>
+<p><em>January</em> - I enjoyed some interesting games of “not jenga” with friends at Monday Night Dinner.</p>
 
-<p>Because many event sites have limited or no cell phone coverage, the entire system is designed around a web server broadcasting pages over a local WiFi network. As competitors finish the course, event software records information from their <a href="https://www.google.com/search?q=orienteering+electronic+punching" target="_blank">e-punch</a> (rfid-like tracking device) and compiles results. The event software is able to export preliminary results at set time intervals, which is the input data for the public live results system. The exported file is routed to a Raspberry Pi which processes it and builds a database each time a new file is received. Some local DNS tricks on a WiFi router and a web server running on the Pi allow anyone on site to connect to a public WiFi network and view the current results. Running this system on the Pi rather than directly on the event laptop helps with modularity and security.</p>
+<p><em>February</em> - I went to Portland for a weekend where I ate donuts and visited with friends from college.</p>
 
-<h3 id="technical-details">Technical Details</h3>
+<p><em>March</em> - I got to catch up with a bunch of high school friends I hadn’t seen in almost a decade at a wedding back home in Alpharetta.</p>
 
-<p>Check out the code (and the readme) on <a href="https://github.com/ercjns/O-coc-wifiscoring">GitHub</a>.</p>
+<p><em>April</em> - I marched in the Seattle March for Science. There were a lot of very punny signs.</p>
 
-<p>The current server is built on the <a href="http://flask.pocoo.org/" target="_blank">Flask</a> micro-framework for Python and uses a SQLite database. It all runs on a <a href="https://www.raspberrypi.org/products/" target="_blank">Raspberry Pi 2</a>. The event software can export the preliminary results file (an .xml file) directly to a folder on the Pi thanks to a <a href="https://www.samba.org/samba/what_is_samba.html" target="_blank">samba</a> share. On the Pi, a simple script monitors this directory for changes. When a new file is detected, the script sends the file to the server (another process on the Pi) via HTTP POST request. The server reads the xml and loads the data to the database, recalculating points for individuals and teams. When a user connects to the local WiFi network and requests a page, the Pi dynamically builds and serves the appropriate html.</p>
+<p><em>May</em> - I rode my bicycle on Seattle freeways in the 2nd (hopefully annual) Emerald City Bike Ride. I made a <a href="https://www.youtube.com/watch?v=LDwdlvEPffs">video</a> about it!</p>
 
-<h3 id="variations">Variations</h3>
+<p><em>June</em> - I went on a four day trip to a bunch of orienteering events in central and eastern Washington. I made another <a href="https://www.youtube.com/watch?v=3sHMjpoDP-A">video</a>!</p>
 
-<p>At three events in February and March 2016, this system was successfully deployed (in areas with cell coverage) such that results were available both via an a internet-facing web server and via the local WiFi. This was trivial: a duplicate web-facing server was running on Heroku, and the script on the Pi was altered to POST each new results xml file to both the localhost and the internet server.</p>
+<p><em>July</em> - My housemates and I hosted an Olin College summer party for about 50 alumni, current students, incoming students, and families.</p>
 
-<p>At three events in Winter 2015-2016, this system captured and displayed information from the check or start control in real time, with the help of some additional hardware and integration of the socketIO library.</p>
+<p><em>August</em> - I <a href="https://twitter.com/ercjns/status/899671708847570951">watched</a> the Solar Eclipse with a pinhole viewer from my kayak in the middle of Lake Sammamish.</p>
 
-<p>Previous event software didn’t have periodic export functionality, so a solution was developed to intercept data as it was sent to the results ticket printer. This worked but was undesirable as the system existed within the critical path for the event. This solution was abandoned when the club independently decided to switch to different event software.</p>
+<p><em>September</em> - I won the Fremont Street Scramble on a beautiful fall morning. I also raced in an amazing sprint orienteering tournament and <a href="http://www.ercjns.com/life/2017/09/10/sart.html">wrote</a> about it.</p>
 
-<p>Previous iterations of this project used <a href="http://expressjs.com/" target="_blank">Express</a> on node.js as the backbone. The project switched to python due to more stable support for python on the Pi and other potential hardware targets which were being investigated.</p>
+<p><em>October</em> - I went hiking with a friend at Cutthroat Pass in the North Cascades on a beautiful bluebird day after early season snow. We found the <a href="https://twitter.com/ercjns/status/917269274653351937">Larch</a>.</p>
 
+<p><em>November</em> - I met some extended family in Nashville for Thanksgiving and got to see some cousins I hadn’t seen in a few years.</p>
+
+<p><em>December</em> - I made updates to an orienteering map of a large local park, then designed and set courses for an event attended by over 400 people.</p>
+
+<p>I hope you too can take a minute to think about your past year and find that you’ve done so much!</p>
+
+<h2 id="looking-back">Looking back</h2>
+<p>Of course, who you are is shaped by much more than a few accomplishments. There are struggles and challenges, new and uncomfortable situations, plans that go awry, spontaneous activities, and the nondescript monotony of whatever day to day life actually is. With so many waking hours in a year, it is a fools errand to ask for it to all be analysed and improved, but that doesn’t mean there is zero opportunity. Here’s a couple ideas of things I’d like to change:</p>
+
+<ul>
+  <li>I wasn’t focused on long-term personal goals.</li>
+  <li>I let too many decisions make themselves.</li>
+  <li>I rarely strayed outside my comfort zone.</li>
+</ul>
+
+<h2 id="looking-forward">Looking forward</h2>
+<p>This is the difficult part. It’s often easier to identify opportunities for change than to actually make those changes. I don’t yet know the strategies I’ll use to tackle the specific ideas mentioned above, but that doesn’t mean I can let this fall flat.</p>
+
+<p>To get started, I have a straightforward resolution for 2018: <strong>spend more time writing and reflecting</strong>. On teams in the workplace and at school I’ve always advocated for the value of retrospectives, yet I don’t use that strategy in my personal life. Time for that to change. I’ve already set up a weekly timebox, and I’m going to use the first couple weeks to discover the right questions to be asking and answering.</p>
+
+<p>Additionally, I’m going to work on pressuring myself to say yes to more things. I definitely need my alone time, but I also want to get out more, try more new things, and spend more time with friends, both old and new. How will I actually achieve this? Checking in on my results during weekly journaling seems like a great way to start.</p>
+
+<p>The next twelve months will give you and me yet another year of experience in living, in becoming ourselves. As with every new adventure, there will be mistakes, but that’s ok. Mistakes (especially big ones!) can often be the best way to learn.</p>
+
+<p>I’m excited to see what 2018 brings and who I become. I hope you too grow through many new adventures. Happy New Year!</p>
 
 
           
@@ -352,7 +376,7 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 <script>
 function addTohistory() {
   if (!window.location.host.startsWith("127.0.0.1")) {
-    history.pushState({}, 'Orienteering Live Results', 'http://www.ercjns.com/projects/2015/10/10/orienteering-live-results.html');
+    history.pushState({}, 'Looking Forward and Back', 'http://www.ercjns.com/life/2018/01/01/looking-forward-and-back.html');
   }
 }
 </script>
